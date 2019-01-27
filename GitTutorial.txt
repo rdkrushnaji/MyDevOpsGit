@@ -31,6 +31,11 @@ root@radheya-LIFEBOOK-A555:~/gitrepo/MyDevOpsGit# git status
 root@radheya-LIFEBOOK-A555:~/gitrepo/MyDevOpsGit# git commit -m "first python proram" HelloWorld.py
 root@radheya-LIFEBOOK-A555:~/gitrepo/MyDevOpsGit# git push -u origin master
 
+if you made changes in online account then use following command to pull updated remote repository to your local repository
+
+
+git pull -u origin master
+
 
 
 
