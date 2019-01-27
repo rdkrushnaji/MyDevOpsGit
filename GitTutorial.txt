@@ -1,0 +1,40 @@
+1. How to Install and Configure Git and GitHub on Ubuntu (Linux)
+
+Devops Git Configuration With Git-Hub
+
+
+root@radheya-LIFEBOOK-A555:~# git config --global user.name "rdkrushnaji"
+root@radheya-LIFEBOOK-A555:~# git config --global user.email "YourMail@gmail.com"
+root@radheya-LIFEBOOK-A555:~# git config --list
+root@radheya-LIFEBOOK-A555:~# pwd
+root@radheya-LIFEBOOK-A555:~# ls -al
+root@radheya-LIFEBOOK-A555:~# gedit .gitconfig
+root@radheya-LIFEBOOK-A555:~# mkdir gitrepo
+root@radheya-LIFEBOOK-A555:~# cd gitrepo/
+root@radheya-LIFEBOOK-A555:~/gitrepo# git clone https://github.com/rdkrushnaji/MyDevOpsGit.git
+root@radheya-LIFEBOOK-A555:~/gitrepo# ls
+root@radheya-LIFEBOOK-A555:~/gitrepo# cd MyDevOpsGit/
+root@radheya-LIFEBOOK-A555:~/gitrepo/MyDevOpsGit# ls
+root@radheya-LIFEBOOK-A555:~/gitrepo/MyDevOpsGit# touch HelloWorld.py
+root@radheya-LIFEBOOK-A555:~/gitrepo/MyDevOpsGit# gedit HelloWorld.py
+root@radheya-LIFEBOOK-A555:~/gitrepo/MyDevOpsGit# git add HelloWorld.py
+root@radheya-LIFEBOOK-A555:~/gitrepo/MyDevOpsGit# git status
+root@radheya-LIFEBOOK-A555:~/gitrepo/MyDevOpsGit# git commit -m "first python proram" HelloWorld.py
+root@radheya-LIFEBOOK-A555:~/gitrepo/MyDevOpsGit# git push -u origin master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
